@@ -27,11 +27,13 @@
   },
   "homepage": "https://github.com/daggilli/express_skeleton#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.28.0",
     "@stylistic/eslint-plugin": "^4.4.1",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.0.1",
     "eslint": "^9.28.0",
