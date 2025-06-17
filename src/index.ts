@@ -14,6 +14,6 @@ app.get('/', (req: Request, res: Response) => {
   console.log('Response sent');
 });
 
-app.listen(port, () => {
+app.listen(Number(port), () => {
   console.log(`Express skeleton listening on port ${port}`);
 });

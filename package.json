@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx --watch src/index.ts",
-    "start": "node --env-file .env target/dist/index.js",
+    "start": "node --env-file-if-exists .env target/dist/index.js",
     "build": "npm run lint && tsc",
     "buildq": "tsc",
     "check": "tsc --noEmit",
